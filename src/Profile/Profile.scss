@@ -1,0 +1,32 @@
+.profile {
+
+    h2 {
+        text-align: center;
+    }
+    
+    &__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__avatar {
+        margin-right: 30px;
+    }
+
+    &__posts {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        & .Post_wrapper {
+            max-width: 300px;
+            flex: 0.5;
+            @media screen and (min-width: 768px) {
+                flex: 0.3;
+            }
+        }
+        & .Post {
+            height: 300px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+* {
+  padding: 3px;
+}
+
+.Main {
+  background-color: rgb(240, 206, 206);
+  background-image: linear-gradient(90deg, #5e8de6, #05197c);
+  padding: 70px;
+  box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-top: 3px solid #838996;
+  border-right: 3px solid #838996;
+}
+
+.register {
+  border-radius: 5%;
+  box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-top: 2px solid #838996;
+  border-right: 2px solid #838996;
+}
+
+.error {
+  color: rgb(218, 40, 40);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button {
+  background: cornsilk;
+  font-weight: bold;
+  margin-left: 120px;
+  box-shadow: -1px 1px rgb(104, 106, 214);
+  width: 100px;
+  margin-left: 45px;
+}
+
+button:hover {
+  background-image: linear-gradient(35deg, #84adf8, #afb5d4);
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  display: table;
+}
+
+// ---========================--------===-=-=-=-=-=-=======--------------============------========-----------------------
+// ---========================--------===-=-=-=-=-=-=======--------------============------========-----------------------
+
+
+// .Register {
+//   width: 300px;
+//   margin: 20px auto;
+//   padding: 15px;
+//   border: 1px solid #dddddd;
+//   border-radius: 3px;
+//   color: #333333;
+//   box-shadow: 0 0 2px 2px #e9e9e9;
+
+//   &__title {
+//     font-size: 22px;
+//     color: #d71b1b;
+//     margin-top: 0;
+//   }
+
+//   .form-group {
+//     margin-top: 15px;
+//   }
+
+//   input {
+//     width: 100%;
+//     height: 36px;
+//     line-height: 1em;
+//     border: 1px solid #cccccc;
+//     border-radius: 3px;
+//     padding: 5px;
+//   }
+
+//   label {
+//     display: inline-block;
+//     font-size: 16px;
+//     margin-bottom: 5px;
+//   }
+
+//   .btn-register {
+//     width: 100%;
+//     height: 36px;
+//     font-size: 16px;
+//     color: #ffffff;
+//     background-color: #d71b1b;
+//     border: 1px solid #a80c0c;
+//     border-radius: 3px;
+//     transition: background-color 250ms;
+
+//     &:hover {
+//       background-color: #a80c0c;
+//     }
+//   }
+
+//   .error {
+//     color: red;
+//     font-size: 12px;
+//     padding-left: 7px;
+//     margin-top: 3px;
+//   }
+// }

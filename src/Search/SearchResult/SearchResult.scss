@@ -1,0 +1,12 @@
+.SearchResult {
+  width: 300px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  margin: 5px;
+  display: inline-block;
+  background: linear-gradient(#c3bcdd, #098bf5);
+}
+
+.SearchResult:hover {
+  background: linear-gradient(#5338e9, #5d9dd4);
+}

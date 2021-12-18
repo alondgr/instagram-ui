@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    .navbar-dark .navbar-brand {
+        color: #f54555;
+    }
+    
+    .nav-link {
+        color: #ffffff;
+        transition: color 200ms;
+        font-size: 1.7em;
+        padding: 0 12px;
+    
+        &:hover {
+            color: #475e81;
+        }
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+}

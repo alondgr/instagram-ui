@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  padding: 10px;
+  // background: linear-gradient(#9b8bd3, #098bf5);
+  background: linear-gradient(#c3bcdd, #098bf5);
+  margin-bottom: 20px;
+}
+
+.caret {
+  font-size: 40px;
+  color: white;
+}

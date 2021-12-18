@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.dropdown-item {
+  position: relative;
+  top: 75px;
+  list-style: none;
+  margin: 2px;
+  padding: 15;
+  border: 1px solid black;
+  background: rgb(209, 209, 214);
+}
+
+.dropdown-item:hover {
+  background: rgb(186, 186, 236);
+}

@@ -1,0 +1,14 @@
+.HeaderProfile {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+
+  &__username {
+    color: #ffffff;
+    margin-left: 6px;
+  }
+}
+
+// div.HeaderProfile:hover {
+//   background-color: blue;
+// }
