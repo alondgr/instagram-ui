@@ -61,15 +61,12 @@ async function getOne(postId) {
     return res.json();
 }
 
-async function getComments(postId, content) {
+async function getComments(postId) {
     const res = await fetch(config.apiUrl + '/post/' + postId + '/comment', {
         method: 'GET',
         headers: {
             'Authorization': localStorage.getItem('token')
-        },
-        body: JSON.stringify({
-            content
-        })
+        }
     });
     return res.json();
 }

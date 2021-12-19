@@ -11,7 +11,7 @@ import { createComment, getComments } from '../../services/post.service';
 
 
 function Post({ data }) {
-    // const { user } = useContext(UserContext);
+
     const [comments, setComments] = useState([]);
     const [commentValue, setCommentValue] = useState('');
 
@@ -19,6 +19,7 @@ function Post({ data }) {
         const fetchComments = async () => {
             try {
                 const comments = await getComments(data._id);
+                console.log('OK?!')
                 console.log(comments)
                 setComments(comments);
                 console.log('COMMENTS: ', comments)
